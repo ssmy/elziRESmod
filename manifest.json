@@ -1,0 +1,27 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+ "background_page": "background.html",
+ "browser_action": {
+ "default_icon": "icon-128.png"
+ },
+ "name": "elzi RES mod",
+ "description": "reddit redesign and RES extension/mod by LOLEXANDER SZLEEZO.",
+ "homepage_url": "http://c00lballz.com",
+ "icons": {
+     "16": "icon-16.png",
+     "48": "icon-48.png",
+     "128": "icon-128.png" },
+ "permissions": [
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+ ],
+ "version": "1.5",
+  "content_scripts": [
+    {
+      "matches": ["http://www.reddit.com/*"],
+      "js": ["jquery.js", "contentscript.js", "image-preview.js"],
+      "css": ["redditmod.css"]
+    }
+  ]
+}
