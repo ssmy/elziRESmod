@@ -16,11 +16,12 @@
      "http://*/*",
      "https://*/*"
  ],
+
  "version": "1.5",
   "content_scripts": [
     {
       "matches": ["http://www.reddit.com/*"],
-      "js": ["jquery.js", "contentscript.js", "image-preview.js"],
+      "js": ["jquery.js", "contentscript.js"],
       "css": ["redditmod.css"]
     }
   ]

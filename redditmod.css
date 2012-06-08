@@ -31,7 +31,7 @@ margin:0 1em;
 
 
 #sr-header-area {
-background:#434343 !important;
+background:#292929 !important;
 text-transform:uppercase !important;
 
 color:#fff !important;
@@ -81,9 +81,9 @@ padding:.3em 1em;
 }
 
 #header-bottom-left {
-background:#fff !important;
+background:#3b3b3b !important;
 width: 100% !important;
-height:55px !important;
+height:50px !important;
 float: right !important;
 margin-top:10px !important;
 position:fixed !important;
@@ -101,7 +101,7 @@ margin-top:30px !important;
 margin-right:15px !important;
 }
 
-#srDropdownContainer a {color:#FF5737 !important;font-weight:bold !important;}
+#srDropdownContainer a {color:#fafafa !important;font-weight:bold !important;}
 
 #NREFloat {display:none !important;}
 
@@ -111,10 +111,11 @@ float:right !important;
 }
 
 #header-bottom-left ul.tabmenu li a {
-background:#f3f3f3 !important;
-color:#494949 !important;
-font-size:.8em !important;
-border:1px solid #434343 !important;
+background:transparent !important;
+color:#3784a0 !important;
+font-size:.85em !important;
+text-transform:uppercase !important;
+border:0px solid #434343 !important;
 padding:8px 5px 8px 5px !important;
 margin-left:6px !important;
 -webkit-border-top-left-radius: 2px;
@@ -134,12 +135,12 @@ margin-top:-8px !important;
 }
 
 #header-bottom-left ul.tabmenu li.selected a {
-background:#434343 !important;
-color:#32c1db !important;
+background:transparent !important;
+color:#33b5e5 !important;
 -moz-border-radius:0;
 -webkit-border-radius:0;
 border-radius:0;
-border:1px solid #434343 !important;
+border:0px solid #434343 !important;
 -webkit-border-top-left-radius: 2px;
 -webkit-border-top-right-radius: 2px;
 -webkit-border-bottom-left-radius: 2px;
@@ -147,8 +148,8 @@ border:1px solid #434343 !important;
 }
 
 #header-bottom-left ul.tabmenu li a:hover {
-background-color:#434343 !important;
-color:#32c1db !important;
+background-color:#212121 !important;
+color:#33b5e5 !important;
 }
 
 #downarrow {
@@ -179,7 +180,7 @@ margin-top:90px !important;
 margin-left:15px;
 margin-right:15px !important;
 width:auto !important;
-border:1px solid #646464 !important;
+border:0px solid #646464 !important;
 }
 
 div.side {
@@ -543,7 +544,7 @@ padding:5px 5px !important;
 
 
 #siteTable .thing:hover {
-background-color:#f0f0f0 !important;
+background-color:rgba(0,0,0,.1) !important;
 }
 
 
@@ -575,8 +576,7 @@ font-size: 14px !important;
 
 
 .link.last-clicked {
-background-color:#F4FAFF;
-border: 0px solid !important;
+background-color:#e0e0e0 !important;
 }
 
 div.noncollapsed p.tagline a.author{font-size:13px !important;}
@@ -828,9 +828,6 @@ border-bottom:1px solid #eee !important;
 border:2px solid #000 !important;
 }
 
-.link.last-clicked {
-border:1px solid !important;
-}
 
 .message.message-reply .entry,.message.message-parent .entry {
 border-left:2px solid !important;
@@ -1100,7 +1097,6 @@ color: #212121 !important;
 #preview-box-img {position:absolute;margin-right:5px;}
 
 #ca-header-everywhere {
-height:120px;
 position:absolute;
 top:8px !important;
 left:16px !important;
@@ -1109,7 +1105,8 @@ width: 130px !important;
 }
 
 
-span.rname {position:absolute;font-family:'Press Start 2P';top:18px;left:20px;font-size:26px;z-index:200 !important;}
+
+span.rname {position:absolute;font-family:'Press Start 2P';top:15px;left:20px;font-size:22px;z-index:200 !important;}
 
 
 .custom-expand {
@@ -1136,11 +1133,15 @@ padding: 20px 70px 20px 70px !important;
 font-size: 16px !important;
 }
 
-#srList a {color:#FF5737 !important;}
+#srList a {color:#33b5e5 !important;}
 #srList tr:hover {background-color:#333 !important;}
 
 
 .author.moderator {background-color:#eee !important;}
+
+
+
+.head-shadow { background: url(http://i.imgur.com/Rx55z.png) left top no-repeat; width: 100%; height: 15px; display: block; position: fixed; left: 0; top:75px; z-index: 300; }
 
 
 
@@ -1153,3 +1154,9 @@ border: 0px solid #C7C7C7 !important;
 border-radius: 0px !important;
 padding: 4px 0px 4px 0px !important;
 }
+
+#RESshortcuts {display:none !important;}
+#RESShortcutsViewport {display:none !important;}
+
+
+#srLeftContainer {float:right !important;}
