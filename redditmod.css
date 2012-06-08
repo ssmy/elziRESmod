@@ -276,15 +276,12 @@ a#mail.havemail {width:0px !important;height:12px !important;}
 #mailCount {display:none !important;}
 
 
-span.userkarma {
-display:none !important;
-}
+span.userkarma {display:none !important;}
 
-#RESAccountSwitcherIcon {display:none !Important;}
-
+#RESAccountSwitcherIcon {display:none !important;}
 #RESMainGearOverlay {display:none !important;}
 .newNotification {display:none !important;}
-
+#openRESPrefs {display:none !important;}
 
 
 #header-bottom-right span.separator {
@@ -918,15 +915,7 @@ right:5px !important;
 }
 
 .gearIcon {
-position:absolute !important;
-top:3px;
-left:6px;
-width:15px;
-height:15px;
-background-image:url('http://www.redditstatic.com/sprite-reddit.ildm4FbgZRM.png') !important;
-background-repeat:no-repeat !important;
-background-position:-18px -554px !important;
-
+display:none !important;
 }
 
 #RESStaticShortcuts,#userbarToggle,.title > h1,.spacer > a.login-required,.RESDashboardToggle,.flairtoggle,span.userattrs,.morelink .nub,.share,.account-activity-box,#RESShortcutsEditContainer #RESShortcutsRight,#RESShortcutsEditContainer #RESShortcutsTrash,#RESShortcutsEditContainer #RESShortcutsLeft {
